@@ -68,7 +68,7 @@ public class Guy
                 else if (whichGuy == "Bartek")
                 {
                     int cashGiven = bartek.GiveCash(amount);
-                    jacek.GiveCash(amount);
+                    jacek.ReceiveCash(cashGiven);
                 }
                 else
                 {
